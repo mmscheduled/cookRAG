@@ -1,0 +1,26 @@
+# GraphRAG系统依赖包
+
+# 基础依赖
+pathlib2>=2.3.7
+dataclasses>=0.6; python_version < "3.7"
+
+# 数据处理
+numpy>=1.21.0
+pandas>=1.3.0
+
+# 图处理（可选，用于更高级的图算法）
+networkx>=2.6.0
+
+# JSON处理
+ujson>=4.0.0
+
+# 日志
+colorlog>=6.0.0
+
+# 类型检查
+typing-extensions>=3.10.0
+
+# LLM集成依赖
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
